@@ -2,7 +2,8 @@
 
 body {
 	margin: 0;
-	overflow: hidden;
+	overflow-y: hidden;
+	overflow-x: hidden;
 	background: white;
 	font-family: 'Lora', serif;
 }
@@ -89,7 +90,7 @@ article h1, [center] {
 }
 
 @media (max-width: 800px) {
-	body {overflow: revert}
+	body {overflow-y: auto;}
 	main {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(4, 50vh);
