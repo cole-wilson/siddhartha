@@ -164,7 +164,7 @@ circle/spiral reminiscent of their words in the 2nd interaction.
 
 	// Meeting 6:
 	`
-<h1>Meetin 6: The Ferryman</h1>
+<h1>Meeting 6: The Ferryman</h1>
 <i>Govinda seeks wisdom from Siddhartha and attains enlightenment after kissing his forehead.</i>
 <p>
 The two friends meet again in their longest interaction yet (spanning several pages!). In it, Govinda
