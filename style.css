@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 body {
 	margin: 0;
 	overflow: hidden;
 	background: white;
+	font-family: 'Lora', serif;
 }
 main {
 	display: grid;
@@ -11,7 +14,7 @@ main {
 	text-align: center;
 }
 .shake {
-	animation: shake 2s infinite;
+	animation: shake 4s infinite;
 }
 main div {
 	padding-top: calc( 25vh - 20px );
@@ -46,19 +49,21 @@ main div img {
 }
 
 article {
+	font-size: 12pt;
 	display: none;
 	z-index: 99;
 	overflow-y: auto;
-	--x: 30px;
+	--x: 100px;
 	position: fixed;
-	top: var(--x);
+	top: 10px;
 	left: var(--x);
 	width: calc( 100vw - ( 2 * var(--x) ) );
-	height: calc( 100vh - ( 2 * var(--x) ) );
+	height: calc( 100vh - 20px );
 	background: white;
 	border: 1px solid black;
 	box-sizing: border-box;
-	padding: 50px 20% 50px;
+	padding: 100px 20% 20px;
+	line-height: 1.5;
 }
 /* #close {
 	background: none;
@@ -81,4 +86,15 @@ article h1, [center] {
   0% {transform: scale(1);}
   30% {transform: scale(1.4);}
 	60% {transform: scale(1);}
+}
+
+@media (max-width: 800px) {
+	body {overflow: revert}
+	main {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 50vh);
+	}
+	article {
+		--x: 10px;
+	}
 }
