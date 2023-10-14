@@ -46,11 +46,11 @@ let stuff = [
 
 <li><a href="https://kirit.com/Sermon%20in%20the%20Deer%20Park">Deer Park Painting</a></li>
 
-<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.priyaahlawat.com%2Fworks%2F1999582%2Fbargaining-indian-village-market&psig=AOvVaw2CYht0kSputN2ct82-OQ4I&ust=1673501353970000&source=images&cd=vfe&ved=0CBAQjhxqFwoTCJi0u8DkvvwCFQAAAAAdAAAAABAR">Market</a></li>
+<li><a href="https://www.priyaahlawat.com/works/1999582/bargaining-indian-village-market">Market</a></li>
 
 <li><a href="https://commons.wikimedia.org/wiki/File:Ferryman_Crossing_Jalangi,_Swarupganj,_Mayapur,_WB.jpg">Ferry Boat on a River</a></li>
 
-<li><a href="https://www.amazon.com/Siddhartha-Literary-Touchstone-Hermann-Hesse/dp/1580493904">SIddhartha Book Cover</a></li>
+<li><a href="https://www.amazon.com/Siddhartha-Literary-Touchstone-Hermann-Hesse/dp/1580493904">Siddhartha Book Cover</a></li>
 
 </ol>
 
